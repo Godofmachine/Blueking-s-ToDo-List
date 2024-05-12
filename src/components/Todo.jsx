@@ -32,7 +32,7 @@ localStorage.setItem("todos", JSON.stringify(todos));
       <div className="todo-header">Todo List</div>
       <div className="todo-add">
         <input ref={inputRef} type="text" placeholder='Add Your Task' className='todo-input' />
-        <div onClick={()=>{add()}} className="todo-add-button">ADD</div>
+        <div onClick={()=>{add()}} className="todo-add-button">+</div>
       </div>
       <div className="todo-list">
             {todos.map((item,index)=>{
